@@ -19,7 +19,7 @@ export const routesConfig = [
 ];
 
 export const RoutesGenerator = ({ config }) => (
-    <BrowserRouter>
+    <BrowserRouter basename="/cocktails-cafe">
         <Switch>
             {config.map(({ layout: Layout, routes }) => (
                 <Route
