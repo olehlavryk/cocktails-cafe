@@ -1,0 +1,29 @@
+.ordered-table {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.ordered-table thead {
+  text-align: center;
+}
+
+.ordered-table thead th {
+  color: #fff;
+  background-color: var(--brown);
+  border-color: var(--brown);
+  padding: 4px 0 4px 10px;
+}
+
+.ordered-table tbody td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid var(--light-grey);
+}
+
+.remove-cocktail {
+  cursor: pointer;
+}

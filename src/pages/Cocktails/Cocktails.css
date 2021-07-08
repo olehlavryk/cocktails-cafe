@@ -1,0 +1,28 @@
+.cocktails-page {
+  margin-top: 96px;
+  min-height: 560px;
+}
+
+.cocktails-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.cocktail {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .cocktail {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cocktail {
+    width: 23%;
+  }
+}

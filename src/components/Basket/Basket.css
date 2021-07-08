@@ -1,0 +1,21 @@
+.basket {
+  cursor: pointer;
+  position: relative;
+}
+
+.basket-counter {
+  color: #fff;
+  background-color: brown;
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: -8px;
+}

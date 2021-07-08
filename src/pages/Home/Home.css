@@ -1,0 +1,15 @@
+.home-page {
+  padding-top: 96px;
+  min-height: 460px;
+}
+
+.home-top-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.info-message {
+  font-size: 15px;
+  text-decoration: underline;
+  color: var(--light-brown);
+}

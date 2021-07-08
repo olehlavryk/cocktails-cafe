@@ -1,0 +1,58 @@
+.ModalWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Modal {
+  position: relative;
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .Modal {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Modal {
+    width: 40%;
+  }
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.basket-empty {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
